@@ -12,6 +12,7 @@ deploy:
   skip-cleanup: true
   github-token: "$GITHUB_TOKEN"
   fqdn: erb.ttp.sh
+  keep-history: true
   on:
     branch: master
 env:
